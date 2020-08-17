@@ -4,3 +4,5 @@
 @Date : 2020/7/3
 @Auther : shenxudong3
 '''
+
+from .walker import RandomWalker

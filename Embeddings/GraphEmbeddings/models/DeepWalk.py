@@ -5,7 +5,7 @@
 @Auther : shenxudong3
 DeepWalk 的 模型实现。 主要返回图中节点的 Embedding向量。
 '''
-
+from Embeddings.Utils import RandomWalker
 
 class DeepWlak:
     def __init__(self, graph, window_size: int, embedding_size:int,  ):
